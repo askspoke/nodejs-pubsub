@@ -208,6 +208,8 @@ Publisher.prototype.publish_ = function() {
     messages: messages,
   };
 
+  console.log('WILL I SEE THIS???')
+
   this.topic.request(
     {
       client: 'PublisherClient',
